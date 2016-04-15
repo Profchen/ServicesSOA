@@ -2,8 +2,7 @@
 
 	require_once 'IWebService.php';
 	require_once 'database/db_connect.php';
-	
-	session_start();
+
 	const PARAM_ACTION = 'action';
 	const REGISTER_USER = 'register';
 	const LOGOUT_USER = 'logout';
@@ -68,7 +67,6 @@
 
 			if (count($verif) !== 0) {
 				$_SESSION['Logged'] = 1;
-				$_SESSION['monUserCo'] = $verif;
 				// var_dump($_SESSION['Logged']);
 				return true;
 			} else {

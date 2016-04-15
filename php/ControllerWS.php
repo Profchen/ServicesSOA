@@ -1,5 +1,7 @@
 <?php
 
+session_start();
+
 	include_once('helper.php');
 
 	const PARAM_WS = 'ws';
@@ -22,6 +24,11 @@
 	$service = new $serviceName();
 	$result = $service->DoGet();
 
+	if ($_GET['action'] == 'login' && $_GET['ws'] == 'user')
+		$_SESSION['monUserCo'] = $result;
+
 	// At the end, we return the result.
 	if ($result !== null)
 		echo json_encode($result);
+
+

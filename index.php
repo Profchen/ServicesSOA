@@ -174,7 +174,7 @@ and open the template in the editor.
                 if(data == "false"){
                     alert("le mot de passe ou l'identifiant n'est pas correct");
                 }else{
-                    window.location = "vues/PageUser.html";
+                    window.location = "vues/PageUser.php";
                 }
 
             },

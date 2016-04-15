@@ -9,31 +9,27 @@
     require_once 'IWebService.php';
     require_once 'database/db_connect.php';
 
-    session_start();
-    const GET_MATCH = "getMatch";
+    const GET_MATCH = "match";
     const ADD_MATCH = "addMatch";
     const UPDATE_SCORE = "addScore";
 
-    class MatchsWS implements IWebService
+    class MatchWS implements IWebService
     {
 
         public function DoGet()
         {
-            if (!isset($_GET[PARAM_ACTION]))
-                Helper::ThrowAccessDenied();
 
-            switch ($_GET[PARAM_ACTION])
+
+            switch ($_GET['action'])
             {
-                case GET_MATCH:
-                    return $this->getMatch();
                 case ADD_MATCH:
                         return $this->addMatch();
                 case UPDATE_SCORE:
                         return $this->addScore();
-
+                case GET_MATCH:
+                        return $this->getMatch();
                 default:
-                    Helper::ThrowAccessDenied();
-                    break;
+                    return true;
             }
         }
 
@@ -80,17 +76,17 @@
 
         public function DoPost()
         {
-            Helper::ThrowAccessDenied();
+
         }
 
         public function DoPut()
         {
-            Helper::ThrowAccessDenied();
+
         }
 
         public function DoDelete()
         {
-            Helper::ThrowAccessDenied();
+
         }
 
     }
