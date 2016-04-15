@@ -99,7 +99,7 @@ and open the template in the editor.
         <div class="form-group">
             <label class="col-md-4 control-label" for="textinput">Pseudo</label>
             <div class="col-md-4">
-                <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
+                <input id="pseudo" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -108,7 +108,7 @@ and open the template in the editor.
         <div class="form-group">
             <label class="col-md-4 control-label" for="password">Mot de passe</label>
             <div class="col-md-4">
-                <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+                <input id="pwd" name="password" type="password" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -117,7 +117,7 @@ and open the template in the editor.
         <div class="form-group">
             <label class="col-md-4 control-label" for="confirmpassword">Confirmation de mot de passe</label>
             <div class="col-md-4">
-                <input id="confirmpassword" name="confirmpassword" type="password" placeholder="" class="form-control input-md" required="">
+                <input id="pwd2" name="confirmpassword" type="password" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -126,7 +126,7 @@ and open the template in the editor.
         <div class="form-group">
             <label class="col-md-4 control-label" for="datenaissance">Date de naissance</label>
             <div class="col-md-4">
-                <input id="datenaissance" name="datenaissance" type="text" placeholder="" class="form-control input-md" required="">
+                <input id="ddn" name="datenaissance" type="text" placeholder="" class="form-control input-md" required="">
 
             </div>
         </div>
@@ -144,7 +144,7 @@ and open the template in the editor.
         <div class="form-group">
             <label class="col-md-4 control-label" for="singlebutton"></label>
             <div class="col-md-4">
-                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Valider</button>
+                <button id="inscription" name="singlebutton" class="btn btn-primary">Inscription</button>
             </div>
         </div>
 
@@ -159,11 +159,10 @@ and open the template in the editor.
 <script type="text/javascript" src="js/common.js"></script>
 <script type="text/javascript">
     $('#connexion').on('click', Login);
+    $('#inscription').on('click', Inscription);
 
 
     function Login() {
-
-        alert('oooh quelqu\'un tente de ce connecter !');
         var URL = "php/ControllerWS.php"; // on recuperer l' adresse du lien
         $.ajax({// ajax
             url: URL, // url de la page à charger
@@ -172,6 +171,7 @@ and open the template in the editor.
             dataType: 'text',
             type: 'GET',
             success: function (data) {// si la requete est un succes
+                alert(data);
                 if(data == "false"){
                     alert("le mot de passe ou l'identifiant n'est pas correct");
                 }else{
@@ -182,6 +182,37 @@ and open the template in the editor.
             error: function (XMLHttpRequest, textStatus, errorThrows) { // erreur durant la requete
             }
         });
+        return false; // on desactive le lien
+    }
+
+    function Inscription(){
+
+        if (document.getElementById("pwd").value  == document.getElementById("pwd2").value ){
+            var URL = "php/ControllerWS.php"; // on recuperer l' adresse du lien
+            $.ajax({// ajax
+                url: URL, // url de la page à charger
+                cache: false, // pas de mise en cache
+                data : "ws=" + "user" +  "&action="+ "register" + "&email=" + document.getElementById("mail").value + "&pwd=" + document.getElementById("pwd").value +
+                "&prenom=" + document.getElementById("prenom").value + "&nom=" + document.getElementById("nom").value + "&pseudo=" + document.getElementById("pseudo").value +
+                "&ddn=" + document.getElementById("ddn").value,
+                dataType: 'text',
+                type: 'GET',
+                success: function (data) {// si la requete est un succes
+                    if(data == "true"){
+                        window.location = "vues/PageUser.html";
+                    }else{
+                        alert('ko');
+                    }
+
+                },
+                error: function (XMLHttpRequest, textStatus, errorThrows) { // erreur durant la requete
+                }
+            });
+        } else {
+            alert('Les mots de passes ne correspondent pas');
+        }
+
+
         return false; // on desactive le lien
     }
 

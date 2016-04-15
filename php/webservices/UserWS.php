@@ -54,24 +54,27 @@
 		
 		private function getVerifUser(){
 
-
                     
 			$us_mail = $_GET['email'];
 			$us_pwd = $_GET['password'];
+
+
+			if (!isset($us_mail) || !isset($us_pwd))
+				Helper::ThrowAccessDenied();
+
 			
-			$sql = "SELECT us_pwd FROM users WHERE us_pseudo='".$us_mail."' AND us_pwd='".$us_pwd."'";
-			
-			MySQL::Execute($sql);
+			MySQL::Execute("SELECT us_id, us_name, us_firstname, us_email, us_pwd, us_isAdmin FROM users WHERE us_email='".$us_mail."' AND us_pwd='".$us_pwd."'");
 			$verif = MySQL::GetResult()->fetchAll();
-			
-			if(count($verif) !== 0){
+
+			if (count($verif) !== 0) {
 				$_SESSION['Logged'] = 1;
-				var_dump($_SESSION['Logged']);
+				$_SESSION['monUserCo'] = $verif;
+				// var_dump($_SESSION['Logged']);
 				return true;
-			}
-			else{
+			} else {
 				return false;
 			}
+
 		}
 		
 		private function logout(){
@@ -92,10 +95,11 @@
 		
 		private function register(){
 			
-			if (!isset($_GET['us_pseudo']) || !isset($_GET['us_pwd']))
+			if (!isset($_GET['email']) || !isset($_GET['prenom']) || !isset($_GET['nom']) || !isset($_GET['pseudo']) || !isset($_GET['pwd']) || !isset($_GET['ddn']) )
 				Helper::ThrowAccessDenied();
 			
-			MySQL::Execute("INSERT INTO users(us_pseudo, us_pwd) VALUES ('".$_GET['us_pseudo']."','".$_GET['us_pwd']."')");
+			MySQL::Execute("INSERT INTO USERS (us_email, us_firstname, us_isAdmin, us_name, us_pseudo, us_pwd, us_ddn) VALUES ('" .$_GET['email']. "', '" .$_GET['prenom']. "', FALSE,
+			'" .$_GET['nom']. "', '" .$_GET['pseudo']. "', '" .$_GET['pwd']. "', '" .$_GET['ddn']. "')");
                         exit();
 			return true;
 		}
