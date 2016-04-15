@@ -1,46 +1,188 @@
 <!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
 <html>
 <head>
     <title>Authentification</title>
-    <meta charset="utf-8" />
-    <link rel="stylesheet" href="css/bootstrap/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/main.css" />
-    <link rel="start" title="Accueil" href="index.php" />
-    <link rel="icon" type="image/png" href="img/favicon.ico" />
-    <style>
-    .button{
-        width: 30%;
-        max-width: 500px;
-        padding: 20px;
-        margin: auto;
-        margin-top: 50px;
-        box-shadow: 0px 0px 2px #000;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="vues/bootstrap/css/bootstrap.css" rel="stylesheet">
+</head>
+
+<script src="vues/bootstrap/js/bootstrap.js"></script>
+<script src="vues/bootstrap/js/bootstrap.min.js"></script>
+<script src="vues/bootstrap/js/jquery.js"></script>
+<script>
+    function changeForm(idForm) {
+        if (idForm == "cnx") {
+            $('#register').hide();
+            $('#cnx').show();
+        } else {
+            $('#register').show();
+            $('#cnx').hide();
+        }
+    }
+</script>
+<style>
+    .title {
+        text-align: center; font-size: 30px; color:grey;
+        cursor : pointer;
     }
 </style>
-</head>
 <body>
+<div class="title" onclick="changeForm('cnx')">Déjà inscrit?</div>
+<form class="form-horizontal" id="cnx">
+    <fieldset>
 
-    <div class="container">
-        <div class="row-centered">
+        <!-- Form Name -->
+        <legend style="text-align:center; font-size:24px; color:blue;">Connexion</legend>
 
-            <div class="col-md-12 col-xs-12 col-centered vcenter">
-
-                <div class="button">
-                    <h1><a href="Admin/">ACCEDER AU BACK-END</a></h1>
-                </div>
-
-                <div class="button">
-                    <h1><a href="Front-end/">ACCEDER AU FRONT-END</a></h1>
-                </div>
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Email</label>
+            <div class="col-md-4">
+                <input id="email" name="textinput" type="text" placeholder="Entrez votre email" class="form-control input-md" required="">
 
             </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="password">Mot de passe</label>
+            <div class="col-md-4">
+                <input id="password" name="password" type="password" placeholder="Veuillez saisir votre mot de passe" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="connexion" name="singlebutton" class="btn btn-primary">Connexion</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form></br></br>
 
 
-        </div> <!--/row-centered -->
-    </div> <!--/container -->
+<div class="title" onclick="changeForm('register')">Pas encore inscrit? Créez un compte pour vous connecter</div></br>
+<form class="form-horizontal" style="display: none;" id="register">
+    <fieldset>
 
-    <script type="text/javascript" src="js/library/jquery/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="js/library/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/main.js"></script>
+        <!-- Form Name -->
+        <legend style="text-align:center; font-size:24px; color:blue;">Inscription</legend>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="nom">Nom</label>
+            <div class="col-md-4">
+                <input id="nom" name="nom" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="prenom">Prénom</label>
+            <div class="col-md-4">
+                <input id="prenom" name="prenom" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="textinput">Pseudo</label>
+            <div class="col-md-4">
+                <input id="textinput" name="textinput" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="password">Mot de passe</label>
+            <div class="col-md-4">
+                <input id="password" name="password" type="password" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Password input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="confirmpassword">Confirmation de mot de passe</label>
+            <div class="col-md-4">
+                <input id="confirmpassword" name="confirmpassword" type="password" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="datenaissance">Date de naissance</label>
+            <div class="col-md-4">
+                <input id="datenaissance" name="datenaissance" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Text input-->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="mail">Mail</label>
+            <div class="col-md-4">
+                <input id="mail" name="mail" type="text" placeholder="" class="form-control input-md" required="">
+
+            </div>
+        </div>
+
+        <!-- Button -->
+        <div class="form-group">
+            <label class="col-md-4 control-label" for="singlebutton"></label>
+            <div class="col-md-4">
+                <button id="singlebutton" name="singlebutton" class="btn btn-primary">Valider</button>
+            </div>
+        </div>
+
+    </fieldset>
+</form>
+
 </body>
 </html>
+
+<script type="text/javascript" src="js/library/jquery/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="js/library/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/common.js"></script>
+<script type="text/javascript">
+    $('#connexion').on('click', Login);
+
+
+    function Login() {
+
+        alert('oooh quelqu\'un tente de ce connecter !');
+        var URL = "php/ControllerWS.php"; // on recuperer l' adresse du lien
+        $.ajax({// ajax
+            url: URL, // url de la page Ã  charger
+            cache: false, // pas de mise en cache
+            data : "ws=" + "user" +  "&action="+ "login" + "&email=" + document.getElementById("email").value + "&password=" + document.getElementById("password").value,
+            dataType: 'text',
+            type: 'GET',
+            success: function (data) {// si la requete est un succes
+                if(data == "false"){
+                    alert("le mot de passe ou l'identifiant n'est pas correct");
+                }else{
+                    window.location = "vues/PageUser.html";
+                }
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrows) { // erreur durant la requete
+            }
+        });
+        return false; // on desactive le lien
+    }
+
+ </script>

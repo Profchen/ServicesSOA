@@ -53,6 +53,8 @@
 		}
 		
 		private function getVerifUser(){
+
+
                     
 			$us_mail = $_GET['email'];
 			$us_pwd = $_GET['password'];
