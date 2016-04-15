@@ -59,7 +59,7 @@
             url: "http://" + IP_ADDRESS + "/SOA//php/ControllerWS.php?ws=User&action=selectAdmin",
             type:'GET',
             async: false,
-            data : { 'idAdmin' : idSurvey },
+            data : { 'us_id' : idSurvey },
             success: function(data){
                 $('#us_pseudo').val(jQuery.parseJSON(data)[0].us_pseudo);
                 $('#us_pwd').val(jQuery.parseJSON(data)[0].us_pwd);
@@ -92,7 +92,7 @@
                         url: "http://" + IP_ADDRESS + "/SOA//php/ControllerWS.php?ws=User&action=modify",
                         type:'GET',
                         async: false,
-                        data : { 'idAdmin' : idSurvey, 'us_pseudo' : $('#us_pseudo').val(), 'us_pwd' : $('#us_pwd').val() },
+                        data : { 'us_id' : idSurvey, 'us_pseudo' : $('#us_pseudo').val(), 'us_pwd' : $('#us_pwd').val() },
                         success: function(data){
                             document.location.href = "alladmin.php"
                         },

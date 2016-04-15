@@ -8,7 +8,7 @@
 	const REGISTER_USER = 'register';
 	const LOGOUT_USER = 'logout';
 	const GET_USERS = 'getall';
-	const GET_VERIF_USER = 'us_pseudo';
+	const GET_VERIF_USER = 'login';
 	const REMOVE_USER = 'remove';
 	const MODIFY_USER = 'modify';
 	const SELECT_USER = 'selectAdmin';
@@ -55,8 +55,6 @@
 		private function getVerifUser(){
 			$us_pseudo = $_GET['us_pseudo'];
 			$us_pwd = $_GET['us_pwd'];
-			var_dump($us_pwd,$us_pseudo);
-                        exit();
 			
 			$sql = "SELECT us_pwd FROM users WHERE us_pseudo='".$us_pseudo."' AND us_pwd='".$us_pwd."'";
 			
@@ -65,7 +63,7 @@
 			
 			if(count($verif) !== 0){
 				$_SESSION['Logged'] = 1;
-				// var_dump($_SESSION['Logged']);
+				var_dump($_SESSION['Logged']);
 				return true;
 			}
 			else{
