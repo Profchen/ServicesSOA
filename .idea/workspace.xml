@@ -16,84 +16,34 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="ServicesSOA" />
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.45224395">
+              <caret line="160" column="62" selection-start-line="160" selection-start-column="62" selection-end-line="160" selection-end-column="62" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserWS.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.038462">
-              <caret line="115" column="140" selection-start-line="115" selection-start-column="140" selection-end-line="115" selection-end-column="140" />
+            <state vertical-scroll-proportion="-9.413794">
+              <caret line="95" column="123" selection-start-line="95" selection-start-column="123" selection-end-line="95" selection-end-column="123" />
               <folding>
-                <marker date="1460709521503" expanded="true" signature="390:432" placeholder="SELECT us_id..users..." />
-                <marker date="1460709521503" expanded="true" signature="1382:1464" placeholder="SELECT us_pw..users..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScheduleWS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/webservices/ScheduleWS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.115385">
-              <caret line="17" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="5" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1460710081668" expanded="true" signature="747:860" placeholder="SELECT us_pw..users..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MatchWS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/webservices/MatchWS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.038462">
-              <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1460711125879" expanded="true" signature="977:1300" placeholder="SELECT te1.t..MATCHS..." />
-                <marker date="1460711125879" expanded="true" signature="1601:1660" placeholder="INSERT INTO ..." />
-                <marker date="1460711125879" expanded="true" signature="1601:1686" placeholder="INSERT INTO ..." />
-                <marker date="1460711125879" expanded="true" signature="1601:1711" placeholder="INSERT INTO ..." />
-                <marker date="1460711125879" expanded="true" signature="1601:1734" placeholder="INSERT INTO ..." />
-                <marker date="1460711125879" expanded="true" signature="2013:2044" placeholder="UPDATE MATCH..." />
-                <marker date="1460711125879" expanded="true" signature="2013:2085" placeholder="UPDATE MATCH..." />
-                <marker date="1460711125879" expanded="true" signature="2013:2124" placeholder="UPDATE MATCH..." />
-                <marker date="1460711125879" expanded="true" signature="2013:2125" placeholder="UPDATE MATCH..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TeamWS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/webservices/TeamWS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-25.5">
-              <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1460711531643" expanded="true" signature="721:757" placeholder="INSERT INTO ..." />
-                <marker date="1460711531643" expanded="true" signature="721:781" placeholder="INSERT INTO ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BetWS.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/webservices/BetWS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.68469507">
-              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
-              <folding>
-                <element signature="e#6#91#0#PHP" expanded="true" />
-                <marker date="1460712392052" expanded="true" signature="798:859" placeholder="INSERT INTO ..." />
-                <marker date="1460712392052" expanded="true" signature="798:887" placeholder="INSERT INTO ..." />
-                <marker date="1460712392052" expanded="true" signature="798:914" placeholder="INSERT INTO ..." />
-                <marker date="1460712392052" expanded="true" signature="798:937" placeholder="INSERT INTO ..." />
-                <marker date="1460712392052" expanded="true" signature="798:959" placeholder="INSERT INTO ..." />
+                <marker date="1460714486930" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
+                <marker date="1460714486930" expanded="true" signature="1330:1410" placeholder="SELECT us_pw..users..." />
+                <marker date="1460714486930" expanded="true" signature="2095:2187" placeholder="INSERT INTO ..." />
+                <marker date="1460714486930" expanded="true" signature="2358:2388" placeholder="DELETE FROM ..." />
+                <marker date="1460714486930" expanded="true" signature="2641:2735" placeholder="UPDATE users..." />
+                <marker date="1460714486930" expanded="true" signature="2876:2924" placeholder="SELECT us_ps..users..." />
               </folding>
             </state>
           </provider>
@@ -112,6 +62,9 @@
         <option value="$PROJECT_DIR$/php/webservices/MatchWS.php" />
         <option value="$PROJECT_DIR$/php/webservices/TeamWS.php" />
         <option value="$PROJECT_DIR$/php/webservices/BetWS.php" />
+        <option value="$PROJECT_DIR$/Admin/README.md" />
+        <option value="$PROJECT_DIR$/php/webservices/UserWS.php" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -182,6 +135,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="vues" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServicesSOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServicesSOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="php" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -214,11 +181,47 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServicesSOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServicesSOA" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServicesSOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ServicesSOA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="library" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -229,10 +232,23 @@
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../projeteuroSOA" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\ServicesSOA" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.php">
+    <configuration default="false" name="index.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/ServicesSOA/index.php">
+      <method />
+    </configuration>
+    <configuration default="false" name="ServicesSOA" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" file="$PROJECT_DIR$/index.php" scope="Class" />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -259,6 +275,16 @@
       <envs />
       <method />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.ServicesSOA" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.index.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.ServicesSOA" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
   <component name="TaskManager">
@@ -280,19 +306,39 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2529412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -335,7 +381,7 @@
           <caret line="17" column="22" selection-start-line="0" selection-start-column="0" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1460710081668" expanded="true" signature="747:860" placeholder="SELECT us_pw..users..." />
+            <marker date="1460712493136" expanded="true" signature="-1:-1" placeholder="SELECT us_pw..users..." />
           </folding>
         </state>
       </provider>
@@ -346,8 +392,8 @@
           <caret line="39" column="76" selection-start-line="39" selection-start-column="76" selection-end-line="39" selection-end-column="76" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1460711531643" expanded="true" signature="721:757" placeholder="INSERT INTO ..." />
-            <marker date="1460711531643" expanded="true" signature="721:781" placeholder="INSERT INTO ..." />
+            <marker date="1460712493139" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493139" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -358,42 +404,82 @@
           <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1460711125879" expanded="true" signature="977:1300" placeholder="SELECT te1.t..MATCHS..." />
-            <marker date="1460711125879" expanded="true" signature="1601:1660" placeholder="INSERT INTO ..." />
-            <marker date="1460711125879" expanded="true" signature="1601:1686" placeholder="INSERT INTO ..." />
-            <marker date="1460711125879" expanded="true" signature="1601:1711" placeholder="INSERT INTO ..." />
-            <marker date="1460711125879" expanded="true" signature="1601:1734" placeholder="INSERT INTO ..." />
-            <marker date="1460711125879" expanded="true" signature="2013:2044" placeholder="UPDATE MATCH..." />
-            <marker date="1460711125879" expanded="true" signature="2013:2085" placeholder="UPDATE MATCH..." />
-            <marker date="1460711125879" expanded="true" signature="2013:2124" placeholder="UPDATE MATCH..." />
-            <marker date="1460711125879" expanded="true" signature="2013:2125" placeholder="UPDATE MATCH..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.038462">
-          <caret line="115" column="140" selection-start-line="115" selection-start-column="140" selection-end-line="115" selection-end-column="140" />
-          <folding>
-            <marker date="1460709521503" expanded="true" signature="390:432" placeholder="SELECT us_id..users..." />
-            <marker date="1460709521503" expanded="true" signature="1382:1464" placeholder="SELECT us_pw..users..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="SELECT te1.t..MATCHS..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="UPDATE MATCH..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="UPDATE MATCH..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="UPDATE MATCH..." />
+            <marker date="1460712493124" expanded="true" signature="-1:-1" placeholder="UPDATE MATCH..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/php/webservices/BetWS.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68469507">
-          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+        <state vertical-scroll-proportion="0.6064442">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
           <folding>
             <element signature="e#6#91#0#PHP" expanded="true" />
-            <marker date="1460712392052" expanded="true" signature="798:859" placeholder="INSERT INTO ..." />
-            <marker date="1460712392052" expanded="true" signature="798:887" placeholder="INSERT INTO ..." />
-            <marker date="1460712392052" expanded="true" signature="798:914" placeholder="INSERT INTO ..." />
-            <marker date="1460712392052" expanded="true" signature="798:937" placeholder="INSERT INTO ..." />
-            <marker date="1460712392052" expanded="true" signature="798:959" placeholder="INSERT INTO ..." />
+            <marker date="1460712493101" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493101" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493101" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493101" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460712493101" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/bootstrap/js/npm.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.413794">
+          <caret line="95" column="123" selection-start-line="95" selection-start-column="123" selection-end-line="95" selection-end-column="123" />
+          <folding>
+            <marker date="1460714486930" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
+            <marker date="1460714486930" expanded="true" signature="1330:1410" placeholder="SELECT us_pw..users..." />
+            <marker date="1460714486930" expanded="true" signature="2095:2187" placeholder="INSERT INTO ..." />
+            <marker date="1460714486930" expanded="true" signature="2358:2388" placeholder="DELETE FROM ..." />
+            <marker date="1460714486930" expanded="true" signature="2641:2735" placeholder="UPDATE users..." />
+            <marker date="1460714486930" expanded="true" signature="2876:2924" placeholder="SELECT us_ps..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/bootstrap/js/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/library/jquery/jquery-1.11.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.45224395">
+          <caret line="160" column="62" selection-start-line="160" selection-start-column="62" selection-end-line="160" selection-end-column="62" />
+          <folding />
         </state>
       </provider>
     </entry>

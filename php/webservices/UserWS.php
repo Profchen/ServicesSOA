@@ -54,10 +54,10 @@
 		
 		private function getVerifUser(){
                     
-			$us_pseudo = $_GET['login'];
+			$us_mail = $_GET['email'];
 			$us_pwd = $_GET['password'];
 			
-			$sql = "SELECT us_pwd FROM users WHERE us_pseudo='".$us_pseudo."' AND us_pwd='".$us_pwd."'";
+			$sql = "SELECT us_pwd FROM users WHERE us_pseudo='".$us_mail."' AND us_pwd='".$us_pwd."'";
 			
 			MySQL::Execute($sql);
 			$verif = MySQL::GetResult()->fetchAll();
@@ -94,7 +94,6 @@
 				Helper::ThrowAccessDenied();
 			
 			MySQL::Execute("INSERT INTO users(us_pseudo, us_pwd) VALUES ('".$_GET['us_pseudo']."','".$_GET['us_pwd']."')");
-                        var_dump($us_pwd,$us_pseudo);
                         exit();
 			return true;
 		}
