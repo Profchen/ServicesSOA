@@ -171,7 +171,6 @@ and open the template in the editor.
             dataType: 'text',
             type: 'GET',
             success: function (data) {// si la requete est un succes
-                alert(data);
                 if(data == "false"){
                     alert("le mot de passe ou l'identifiant n'est pas correct");
                 }else{
@@ -198,8 +197,9 @@ and open the template in the editor.
                 dataType: 'text',
                 type: 'GET',
                 success: function (data) {// si la requete est un succes
+                    alert(data);
                     if(data == "true"){
-                        window.location = "vues/PageUser.html";
+                        window.location = "index.php";
                     }else{
                         alert('ko');
                     }

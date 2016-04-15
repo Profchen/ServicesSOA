@@ -25,8 +25,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.769231">
-              <caret line="194" column="103" selection-start-line="194" selection-start-column="103" selection-end-line="194" selection-end-column="103" />
+            <state vertical-scroll-proportion="-19.038462">
+              <caret line="199" column="32" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="32" />
               <folding />
             </state>
           </provider>
@@ -52,11 +52,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_credentials.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="db_credentials.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/php/database/db_credentials.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.136939">
-              <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+            <state vertical-scroll-proportion="-4.576923">
+              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
               <folding />
             </state>
           </provider>
@@ -72,21 +72,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserWS.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="UserWS.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.9827585">
-              <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.57706094">
+              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
               <folding>
-                <marker date="1460723839608" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
-                <marker date="1460723839608" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
-                <marker date="1460723839608" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
-                <marker date="1460723839608" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
-                <marker date="1460723839608" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
-                <marker date="1460723839608" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
-                <marker date="1460723839608" expanded="true" signature="2760:2790" placeholder="DELETE FROM ..." />
-                <marker date="1460723839608" expanded="true" signature="3043:3137" placeholder="UPDATE users..." />
-                <marker date="1460723839608" expanded="true" signature="3278:3326" placeholder="SELECT us_ps..users..." />
+                <marker date="1460724474152" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
+                <marker date="1460724474152" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
+                <marker date="1460724474152" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
+                <marker date="1460724474152" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
+                <marker date="1460724474152" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
+                <marker date="1460724474152" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
+                <marker date="1460724474152" expanded="true" signature="2753:2783" placeholder="DELETE FROM ..." />
+                <marker date="1460724474152" expanded="true" signature="3036:3130" placeholder="UPDATE users..." />
+                <marker date="1460724474152" expanded="true" signature="3271:3319" placeholder="SELECT us_ps..users..." />
               </folding>
             </state>
           </provider>
@@ -107,8 +107,9 @@
         <option value="$PROJECT_DIR$/php/webservices/BetWS.php" />
         <option value="$PROJECT_DIR$/Admin/README.md" />
         <option value="$PROJECT_DIR$/vues/Authentification.html" />
-        <option value="$PROJECT_DIR$/php/webservices/UserWS.php" />
+        <option value="$PROJECT_DIR$/php/database/db_credentials.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/php/webservices/UserWS.php" />
       </list>
     </option>
   </component>
@@ -423,15 +424,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="95" column="123" selection-start-line="95" selection-start-column="123" selection-end-line="95" selection-end-column="123" />
           <folding>
-            <marker date="1460723839608" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
-            <marker date="1460723839608" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2760:2790" placeholder="DELETE FROM ..." />
-            <marker date="1460723839608" expanded="true" signature="3043:3137" placeholder="UPDATE users..." />
-            <marker date="1460723839608" expanded="true" signature="3278:3326" placeholder="SELECT us_ps..users..." />
+            <marker date="1460724474152" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
+            <marker date="1460724474152" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2753:2783" placeholder="DELETE FROM ..." />
+            <marker date="1460724474152" expanded="true" signature="3036:3130" placeholder="UPDATE users..." />
+            <marker date="1460724474152" expanded="true" signature="3271:3319" placeholder="SELECT us_ps..users..." />
           </folding>
         </state>
       </provider>
@@ -519,44 +520,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.9827585">
-          <caret line="91" column="0" selection-start-line="91" selection-start-column="0" selection-end-line="91" selection-end-column="0" />
-          <folding>
-            <marker date="1460723839608" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
-            <marker date="1460723839608" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
-            <marker date="1460723839608" expanded="true" signature="2760:2790" placeholder="DELETE FROM ..." />
-            <marker date="1460723839608" expanded="true" signature="3043:3137" placeholder="UPDATE users..." />
-            <marker date="1460723839608" expanded="true" signature="3278:3326" placeholder="SELECT us_ps..users..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/ControllerWS.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-13.730769">
           <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.769231">
-          <caret line="194" column="103" selection-start-line="194" selection-start-column="103" selection-end-line="194" selection-end-column="103" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/php/database/db_connect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.653847">
-          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
           <folding />
         </state>
       </provider>
@@ -574,9 +541,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/php/database/db_credentials.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.136939">
-          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
+        <state vertical-scroll-proportion="-4.576923">
+          <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/database/db_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-17.653847">
+          <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.038462">
+          <caret line="199" column="32" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57706094">
+          <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+          <folding>
+            <marker date="1460724474152" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
+            <marker date="1460724474152" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
+            <marker date="1460724474152" expanded="true" signature="2753:2783" placeholder="DELETE FROM ..." />
+            <marker date="1460724474152" expanded="true" signature="3036:3130" placeholder="UPDATE users..." />
+            <marker date="1460724474152" expanded="true" signature="3271:3319" placeholder="SELECT us_ps..users..." />
+          </folding>
         </state>
       </provider>
     </entry>
