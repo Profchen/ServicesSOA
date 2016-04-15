@@ -17,10 +17,8 @@
 
         public function DoGet()
         {
-            if (!isset($_GET[PARAM_ACTION]))
-                Helper::ThrowAccessDenied();
 
-            switch ($_GET[PARAM_ACTION])
+            switch ($_GET['action'])
             {
                 case GET_SCHEDULE:
                     return $this->getSchedule();
@@ -42,17 +40,17 @@
 
         public function DoPost()
         {
-            Helper::ThrowAccessDenied();
+
         }
 
         public function DoPut()
         {
-            Helper::ThrowAccessDenied();
+
         }
 
         public function DoDelete()
         {
-            Helper::ThrowAccessDenied();
+
         }
 
     }

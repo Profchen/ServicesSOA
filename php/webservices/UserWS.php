@@ -19,10 +19,9 @@
 		
 		public function DoGet()
 		{
-			if (!isset($_GET[PARAM_ACTION]))
-				Helper::ThrowAccessDenied();
 
-			switch ($_GET[PARAM_ACTION])
+
+			switch ($_GET['action'])
 			{
 				case GET_VERIF_USER:
 					return $this->getVerifUser();
@@ -128,17 +127,16 @@
 		
 		public function DoPost()
 		{
-			Helper::ThrowAccessDenied();
+		
 		}
 		
 		public function DoPut()
 		{
-			Helper::ThrowAccessDenied();
+
 		}
 
 		public function DoDelete()
 		{
-			Helper::ThrowAccessDenied(); 
 		}
 	}
 

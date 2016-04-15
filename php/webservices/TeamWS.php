@@ -17,10 +17,9 @@ class TeamWS implements IWebService
 
     public function DoGet()
     {
-        if (!isset($_GET[PARAM_ACTION]))
-            Helper::ThrowAccessDenied();
 
-        switch ($_GET[PARAM_ACTION])
+
+        switch ($_GET['action'])
         {
             case ADD_TEAM:
                 return $this->addTeam();
@@ -49,17 +48,16 @@ class TeamWS implements IWebService
 
     public function DoPost()
     {
-        Helper::ThrowAccessDenied();
+
     }
 
     public function DoPut()
     {
-        Helper::ThrowAccessDenied();
     }
 
     public function DoDelete()
     {
-        Helper::ThrowAccessDenied();
+
     }
 
 }
