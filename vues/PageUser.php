@@ -89,13 +89,13 @@
                     <a href="#" onclick="changePage('match')">Les matchs à venir</a>
                 </li>
                 <li>
-                    <a href="#" onclick="changePage('bet')">Mes paris</a>
+                    <a href="#"  onclick="changePage('bet')">Mes paris</a>
                 </li>
                 <li>
-                    <a href="#" onclick="changePage('rang')">Mon classement</a>
+                    <a href="#"  onclick="changePage('rang')">Mon classement</a>
                 </li>
                 <li>
-                    <a href="./PageAdmin.html">Administration</a>
+                    <a href="./PageAdmin.php">Administration</a>
                 </li>
             </ul>
         </div>
@@ -124,6 +124,13 @@
 
         </div>
 
+
+
+        <div id="paris">
+
+
+
+        </div>
 
     </div>
 
@@ -261,7 +268,8 @@
     <footer>
         <div class="row">
             <div class="col-lg-12">
-                <button id="yolo">YOLO</button>
+                <button id="yolo">Matchs</button>
+                <button id="mesParis">Paris</button>
                 <p>Copyright &copy; Your Website 2014</p>
             </div>
         </div>
@@ -294,10 +302,32 @@
 
                 var obj = jQuery.parseJSON(data);
                 for (var i = 0; i < obj.length; i++) {
-                    alert(obj[i]);
 
 
-                    $("#match").append();
+                    $('#match').append(obj[i]['nameTeam1'] + '-' + obj[i]['nameTeam2'] + '\r');
+
+                }
+
+
+            },
+            error: function (XMLHttpRequest, textStatus, errorThrows) { // erreur durant la requete
+            }
+        });
+        return false; // on desactive le lien
+    }
+
+    $('#mesParis').on('click', Paris);
+
+    function Paris(){
+        var URL = 'http://localhost/ServicesSOA/php/ControllerWS.php?ws=bet&action=bet';
+        $.ajax({// ajax
+            url: URL, // url de la page Ã  charger
+            type: 'POST',
+            success: function (data) {// si la requete est un succes
+
+                var obj = jQuery.parseJSON(data);
+                for (var i = 0; i < obj.length; i++) {
+                    $('#paris').append(obj[i]['nameTeam1'] + ' ' + obj[i]['be_score1'] +  '-' + obj[i]['be_score2'] + ' ' + obj[i]['nameTeam2'] + '\r');
 
                 }
 

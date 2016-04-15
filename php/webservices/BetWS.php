@@ -9,26 +9,21 @@
 require_once 'IWebService.php';
 require_once 'database/db_connect.php';
 
-session_start();
 const ADD_BET = "addBet";
-
+const BET = "bet";
 class BetWS implements IWebService
 {
 
-    public function DoGet()
-    {
-        if (!isset($_GET[PARAM_ACTION]))
-            Helper::ThrowAccessDenied();
+    public function DoGet(){
 
-        switch ($_GET[PARAM_ACTION])
+        switch ($_GET['action'])
         {
             case ADD_BET:
                 return $this->addBet();
-
-
+            case BET:
+                return $this->getBet();
             default:
-                Helper::ThrowAccessDenied();
-                break;
+                return true;
         }
     }
 
@@ -45,21 +40,36 @@ class BetWS implements IWebService
 
     }
 
+    private function getBet(){
+
+        $sql = "SELECT be_score1, be_score2, ma.ma_id, us_id, ma_id_tm1, ma_id_tm2,
+            ma.ma_date, te1.tm_id AS idTeam1, te1.tm_name AS nameTeam1,  te2.tm_id AS idTeam2, te2.tm_name AS nameTeam2
+            FROM bets be
+            INNER JOIN matchs ma ON ma.ma_id = be.ma_id
+            INNER JOIN teams te1 ON te1.tm_id = ma_id_tm1
+            INNER JOIN teams te2 ON te2.tm_id = ma_id_tm2
+            WHERE us_id = 3";
+
+        MySQL::Execute($sql);
+
+        return MySQL::GetResult()->fetchAll();
+    }
+
 
 
     public function DoPost()
     {
-        Helper::ThrowAccessDenied();
+
     }
 
     public function DoPut()
     {
-        Helper::ThrowAccessDenied();
+
     }
 
     public function DoDelete()
     {
-        Helper::ThrowAccessDenied();
+
     }
 
 }
