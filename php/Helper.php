@@ -18,8 +18,9 @@
 		// Stop the request and send an access denied message to the client.
 		public static function ThrowAccessDenied()
 		{
-			echo MESSAGE_ACCESS_DENIED;
-			exit();
+                        echo MESSAGE_ACCESS_DENIED;
+                        exit();
+                        
 		}
 
 		// Stop the request and send an request error message to the client.

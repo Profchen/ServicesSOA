@@ -53,8 +53,9 @@
 		}
 		
 		private function getVerifUser(){
-			$us_pseudo = $_GET['us_pseudo'];
-			$us_pwd = $_GET['us_pwd'];
+                    
+			$us_pseudo = $_GET['login'];
+			$us_pwd = $_GET['password'];
 			
 			$sql = "SELECT us_pwd FROM users WHERE us_pseudo='".$us_pseudo."' AND us_pwd='".$us_pwd."'";
 			
