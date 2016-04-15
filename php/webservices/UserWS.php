@@ -100,7 +100,7 @@
 			
 			MySQL::Execute("INSERT INTO USERS (us_email, us_firstname, us_isAdmin, us_name, us_pseudo, us_pwd, us_ddn) VALUES ('" .$_GET['email']. "', '" .$_GET['prenom']. "', FALSE,
 			'" .$_GET['nom']. "', '" .$_GET['pseudo']. "', '" .$_GET['pwd']. "', '" .$_GET['ddn']. "')");
-                        
+
 			return true;
 		}
 		

@@ -25,74 +25,34 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.038462">
-              <caret line="199" column="32" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="32" />
+            <state vertical-scroll-proportion="-32.115383">
+              <caret line="219" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_connect.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/database/db_connect.php">
+      <file leaf-file-name="PageUser.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vues/PageUser.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.653847">
-              <caret line="27" column="36" selection-start-line="27" selection-start-column="36" selection-end-line="27" selection-end-column="36" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="database.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/database/database.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.390625">
-              <caret line="69" column="0" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="db_credentials.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/database/db_credentials.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.576923">
-              <caret line="7" column="24" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerWS.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/php/ControllerWS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.730769">
-              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserWS.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57706094">
-              <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
+            <state vertical-scroll-proportion="0.23705408">
+              <caret line="276" column="3" selection-start-line="276" selection-start-column="3" selection-end-line="276" selection-end-column="3" />
               <folding>
-                <marker date="1460724474152" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
-                <marker date="1460724474152" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
-                <marker date="1460724474152" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
-                <marker date="1460724474152" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
-                <marker date="1460724474152" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
-                <marker date="1460724474152" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
-                <marker date="1460724474152" expanded="true" signature="2753:2783" placeholder="DELETE FROM ..." />
-                <marker date="1460724474152" expanded="true" signature="3036:3130" placeholder="UPDATE users..." />
-                <marker date="1460724474152" expanded="true" signature="3271:3319" placeholder="SELECT us_ps..users..." />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Html5" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -108,8 +68,11 @@
         <option value="$PROJECT_DIR$/Admin/README.md" />
         <option value="$PROJECT_DIR$/vues/Authentification.html" />
         <option value="$PROJECT_DIR$/php/database/db_credentials.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/php/webservices/UserWS.php" />
+        <option value="$PROJECT_DIR$/vues/navbar.html" />
+        <option value="$PROJECT_DIR$/vues/accueilUser.html" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/vues/PageUser.html" />
       </list>
     </option>
   </component>
@@ -194,56 +157,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServicesSOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServicesSOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="webservices" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServicesSOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServicesSOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="php" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="database" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServicesSOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ServicesSOA" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -298,6 +211,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/index.php" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -424,15 +338,15 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="95" column="123" selection-start-line="95" selection-start-column="123" selection-end-line="95" selection-end-column="123" />
           <folding>
-            <marker date="1460724474152" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
-            <marker date="1460724474152" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2753:2783" placeholder="DELETE FROM ..." />
-            <marker date="1460724474152" expanded="true" signature="3036:3130" placeholder="UPDATE users..." />
-            <marker date="1460724474152" expanded="true" signature="3271:3319" placeholder="SELECT us_ps..users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="SELECT us_id..users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="SELECT us_id..users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="SELECT us_ps..users..." />
           </folding>
         </state>
       </provider>
@@ -504,14 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vues/PageUser.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/_superglobals.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="3.3843498">
@@ -555,28 +461,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.038462">
-          <caret line="199" column="32" selection-start-line="199" selection-start-column="32" selection-end-line="199" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/php/webservices/UserWS.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.57706094">
           <caret line="102" column="24" selection-start-line="102" selection-start-column="24" selection-end-line="102" selection-end-column="24" />
           <folding>
-            <marker date="1460724474152" expanded="true" signature="386:428" placeholder="SELECT us_id..users..." />
-            <marker date="1460724474152" expanded="true" signature="1419:1550" placeholder="SELECT us_id..users..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2438" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2441" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2488" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2341:2589" placeholder="INSERT INTO ..." />
-            <marker date="1460724474152" expanded="true" signature="2753:2783" placeholder="DELETE FROM ..." />
-            <marker date="1460724474152" expanded="true" signature="3036:3130" placeholder="UPDATE users..." />
-            <marker date="1460724474152" expanded="true" signature="3271:3319" placeholder="SELECT us_ps..users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="SELECT us_id..users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="SELECT us_id..users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="UPDATE users..." />
+            <marker date="1460724560933" expanded="true" signature="-1:-1" placeholder="SELECT us_ps..users..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-32.115383">
+          <caret line="219" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vues/PageUser.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23705408">
+          <caret line="276" column="3" selection-start-line="276" selection-start-column="3" selection-end-line="276" selection-end-column="3" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
